@@ -1,0 +1,796 @@
+C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 apple
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = apple
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27apple%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://www.apple.com/
+ Title: apple
+ Summary: apple leads the world in innovation with iphone, ipad, mac, apple watch, ios, os x, watchos and more. visit the site to learn, buy, and get support.
+]
+Relevant[Y/N]? n
+Result 2
+[
+ URL: http://finance.yahoo.com/q?s=AAPL
+ Title: aapl: summary for apple inc.- yahoo! finance
+ Summary: view the basic aapl stock chart on yahoo! finance. change the date range, chart type and compare apple inc. against other companies.
+]
+Relevant[Y/N]? n
+Result 3
+[
+ URL: https://support.apple.com/en-us/HT205284
+ Title: about the security content of ios 9.0.2 - apple support
+ Summary: for the protection of our customers, apple does not disclose, discuss, or confirm security issues until a full investigation has occurred and any necessary ...
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: https://developer.apple.com/news/?id=09222015a
+ Title: validating your version of xcode - news and updates ...
+ Summary: get updates, tips, and how-to information on a range of development, app store, and mac app store topics.
+]
+Relevant[Y/N]? n
+Result 5
+[
+ URL: http://www.wsj.com/articles/apple-speeds-up-electric-car-work-1442857105
+ Title: apple targets electric-car shipping date for 2019 - wsj
+ Summary: apple is accelerating efforts to build its first electric car, designating it internally as a committed project and setting a target date for 2019 to finalize ...
+]
+Relevant[Y/N]? n
+Result 6
+[
+ URL: http://www.whfoods.com/genpage.php?tname=foodspice&dbid=15
+ Title: apples - the world's healthiest foods
+ Summary: what's new and beneficial about apples. the phytonutrients in apples can help you regulate your blood sugar. recent research has shown that apple polyphenols can help ...
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: https://appleid.apple.com/en_US
+ Title: apple - apple id
+ Summary: an apple id is your user name for everything you do with apple: shop the itunes store, enable icloud on all your devices, buy from the apple online store, make a ...
+]
+Relevant[Y/N]? n
+Result 8
+[
+ URL: http://www.fastcompany.com/3051130/fast-feed/apple-music-is-boosting-spotify-not-crushing-it-says-ceo-daniel-ek
+ Title: apple music is boosting spotify, not crushing it, says ceo ...
+ Summary: despite predictions that apple music could swallow streaming music competitors, a different phenomenon seems to be taking place: apple's interest in the ...
+]
+Relevant[Y/N]? n
+Result 9
+[
+ URL: http://www.entrepreneur.com/article/250919
+ Title: apple's tesla challenger could roll into the market by 2019
+ Summary: look out, tesla. apple is speeding into your rearview. the cupertino, calif., colossus is gearing up to release an electric car by 2019 and its hiring 1,200 more ...
+]
+Relevant[Y/N]? n
+Result 10
+[
+ URL: http://www.nytimes.com/2015/09/21/business/apple-confirms-discovery-of-malicious-code-in-some-app-store-products.html
+ Title: apple confirms discovery of malicious code in some app ...
+ Summary: inside an apple store in china over the weekend. the company said on sunday that it was working with developers to make sure they were using the proper ...
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = apple
+Precision 0.1
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+Augmenting by apples
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = apple apples
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27apple%20apples%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://www.apple.com/
+ Title: apple
+ Summary: apple leads the world in innovation with iphone, ipad, mac, apple watch, ios, os x, watchos and more. visit the site to learn, buy, and get support.
+]
+Relevant[Y/N]? n
+Result 2
+[
+ URL: http://en.wikipedia.org/wiki/Apple
+ Title: apple - wikipedia, the free encyclopedia
+ Summary: the apple tree (malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. it is cultivated worldwide as a fruit ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: http://www.amazon.com/Apples-Nancy-Elizabeth-Wallace/dp/0761451811
+ Title: apples, apples, apples: nancy elizabeth wallace ...
+ Summary: apples, apples, apples [nancy elizabeth wallace] on amazon.com. *free* shipping on qualifying offers. its a blue sky autumn day and minna, pop, mom, and dad have ...
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://www.whfoods.com/genpage.php?tname=foodspice&dbid=15
+ Title: apples - the world's healthiest foods
+ Summary: what's new and beneficial about apples. the phytonutrients in apples can help you regulate your blood sugar. recent research has shown that apple polyphenols can help ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://www.jsonline.com/features/food/apple-season-heres-where-to-pick-apples-in-milwaukee-and-recipes-to-make-b99582391z1-329944251.html
+ Title: apple season: here's where to pick apples in milwaukee and ...
+ Summary: there's no denying what the first chill of fall means  apple season is here. and apples are ripe for the picking. whether you're enjoying the fruits of your own ...
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.foodnetwork.com/topics/apple.html
+ Title: apple recipes : food network
+ Summary: apple. enjoy apples in delicious desserts, seasonal main dishes, savory sides and more. amazing apples. get 11 apple recipes; apple recipes. come fall, sweet, crunchy ...
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://www.apple.com/ipad/
+ Title: ipad - apple
+ Summary: discover the world of ipad. introducing ipad pro and the ipad mini 4. visit the apple site to learn, buy, and get support.
+]
+Relevant[Y/N]? n
+Result 8
+[
+ URL: http://en.wikipedia.org/wiki/Apples_to_Apples
+ Title: apples to apples - wikipedia, the free encyclopedia
+ Summary: apples to apples is a party game originally published by out of the box publishing, and now published by mattel. the object of the game is to win the most rounds by ...
+]
+Relevant[Y/N]? n
+Result 9
+[
+ URL: http://www.orangepippin.com/apples
+ Title: directory of apple varieties starting with a - orange pippin
+ Summary: for apple, pear, plum, cherry and orchard fruit enthusiasts - tasting notes, fruit identification, flavors, and relationships of hundreds varieties.
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.appleharvest.com/
+ Title: national apple harvest festival - home
+ Summary: the national apple harvest festival, which is held during the first two weekends in october, has been celebrating beautiful crafts, great music and wonderful food for ...
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = apple apples
+Precision 0.5
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+Augmenting by fruit
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = apple apples fruit
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27apple%20apples%20fruit%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Apple
+ Title: apple - wikipedia, the free encyclopedia
+ Summary: the apple tree (malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. it is cultivated worldwide as a fruit ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://www.nutrition-and-you.com/apple-fruit.html
+ Title: apple fruit nutrition facts and health benefits
+ Summary: delicious and crunchy apple fruit is one of the popular fruits containing an impressive list of antioxidants and essential nutrients required for good healthread on.
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: https://www.apple.com/
+ Title: apple
+ Summary: apple leads the world in innovation with iphone, ipad, mac, apple watch, ios, os x, watchos and more. visit the site to learn, buy, and get support.
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://www.fruitsinfo.com/apples.php
+ Title: apple fruit | history of apples | nutrition facts
+ Summary: introduction of apples. apple- king of all fruits have long been associated with the biblical story of adam and eve. between the caspin and the black sea, the fruit ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://www.orangepippin.com/apples
+ Title: directory of apple varieties starting with a
+ Summary: for apple, pear, plum, cherry and orchard fruit enthusiasts - tasting notes, fruit identification, flavors, and relationships of hundreds varieties.
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.alibaba.com/product-detail/import-honey-fuji-apple-fruit_60344988340.html
+ Title: import honey fuji apple fruit - buy honey fuji apple ...
+ Summary: import honey fuji apple fruit , find complete details about import honey fuji apple fruit,honey fuji apple,import apple fruit,import honey fuji apple fruit from fresh ...
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://whatscookingamerica.net/Fruit/Apples.htm
+ Title: history and legends of apples, apple recipes, what's ...
+ Summary: what are cooking apples? a cooking apple is an apple that is used primarily for cooking rather than eating. while theres no harm to using an eating apple in a ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://www.whfoods.com/genpage.php?tname=foodspice&dbid=15
+ Title: apples - the world's healthiest foods
+ Summary: what's new and beneficial about apples. the phytonutrients in apples can help you regulate your blood sugar. recent research has shown that apple polyphenols can help ...
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.amazon.com/LARABAR-Fruit-Apple-Gluten-ounce/dp/B00426ATTK
+ Title: larabar fruit & nut food bar, apple pie, gluten free 1.6 ...
+ Summary: lrabar fruit & nut food bar, apple pie. just like grandma's and with 190 calories, this apple pie fruit and nut bar contains one quarter cup of fruit, 5 grams of ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.bestapples.com/
+ Title: washington state apple commission
+ Summary: apple varieties, history of the association, health and nutrition information, facts, kids' section, recipes, grower profiles, map of growing regions, and historic ...
+]
+Relevant[Y/N]? y
+=======================
+FEEDBACK SUMMARY
+Query = apple apples fruit
+Precision 0.9
+Desired precision reached,DONE
+
+C:\Users\Bahul\Documents\Python Workspace\ADB>
+
+FEEDBACK SUMMARY
+Query = apple apples
+Precision 0.5
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+[u'fruit', u'...', u'recipes', u'season', u'tree']
+[0.10936287590858329, 0.079926092065629825, 0.079054842372564799, 0.066938927203056914, 0.062108205345199202]
+fruit 0.10936287590858329
+... 0.079926092065629825
+recipes 0.079054842372564799
+Augmenting by fruit
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = apple apples fruit
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27apple%20apples%20fruit%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Apple
+ Title: apple - wikipedia, the free encyclopedia
+ Summary: the apple tree (malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. it is cultivated worldwide as a fruit ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://www.nutrition-and-you.com/apple-fruit.html
+ Title: apple fruit nutrition facts and health benefits
+ Summary: delicious and crunchy apple fruit is one of the popular fruits containing an impressive list of antioxidants and essential nutrients required for good healthread on.
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: https://www.apple.com/
+ Title: apple
+ Summary: apple leads the world in innovation with iphone, ipad, mac, apple watch, ios, os x, watchos and more. visit the site to learn, buy, and get support.
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://www.fruitsinfo.com/apples.php
+ Title: apple fruit | history of apples | nutrition facts
+ Summary: introduction of apples. apple- king of all fruits have long been associated with the biblical story of adam and eve. between the caspin and the black sea, the fruit ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://www.orangepippin.com/apples
+ Title: directory of apple varieties starting with a
+ Summary: for apple, pear, plum, cherry and orchard fruit enthusiasts - tasting notes, fruit identification, flavors, and relationships of hundreds varieties.
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.alibaba.com/product-detail/import-honey-fuji-apple-fruit_60344988340.html
+ Title: import honey fuji apple fruit - buy honey fuji apple ...
+ Summary: import honey fuji apple fruit , find complete details about import honey fuji apple fruit,honey fuji apple,import apple fruit,import honey fuji apple fruit from fresh ...
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://whatscookingamerica.net/Fruit/Apples.htm
+ Title: history and legends of apples, apple recipes, what's ...
+ Summary: what are cooking apples? a cooking apple is an apple that is used primarily for cooking rather than eating. while theres no harm to using an eating apple in a ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://www.whfoods.com/genpage.php?tname=foodspice&dbid=15
+ Title: apples - the world's healthiest foods
+ Summary: what's new and beneficial about apples. the phytonutrients in apples can help you regulate your blood sugar. recent research has shown that apple polyphenols can help ...
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.amazon.com/LARABAR-Fruit-Apple-Gluten-ounce/dp/B00426ATTK
+ Title: larabar fruit & nut food bar, apple pie, gluten free 1.6 ...
+ Summary: lrabar fruit & nut food bar, apple pie. just like grandma's and with 190 calories, this apple pie fruit and nut bar contains one quarter cup of fruit, 5 grams of ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.bestapples.com/
+ Title: washington state apple commission
+ Summary: apple varieties, history of the association, health and nutrition information, facts, kids' section, recipes, grower profiles, map of growing regions, and historic ...
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = apple apples fruit
+Precision 0.8
+Desired precision reached,DONE
+
+C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 gates
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = gates
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://www.gates.com/
+ Title: gates corporation
+ Summary: gates corporation is powering progress in the oil & gas, energy, mining, marine, agriculture, transportation and automotive industries.
+]
+Relevant[Y/N]? n
+Result 2
+[
+ URL: http://www.gatecrafters.com/design_your_gates.aspx
+ Title: driveway gates | automatic gates | electric gates
+ Summary: driveway gates - automatic gates the high-quality driveway gates from gatecrafters.com come in a wide variety of options to ...
+]
+Relevant[Y/N]? n
+Result 3
+[
+ URL: http://www.gatesbbq.com/
+ Title: gates bar b.q.
+ Summary: with the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://en.wikipedia.org/wiki/Gates
+ Title: gates - wikipedia, the free encyclopedia
+ Summary: gates may refer to: contents 1 people 2 places 3 art and entertainment 4 see also people gates (surname) gates brown, american baseball player gates mcfadden ...
+]
+Relevant[Y/N]? n
+Result 5
+[
+ URL: https://www.facebook.com/gatesnj
+ Title: gates
+ Summary: minneapolis, you are two for two in our book. such a rad city! we are in ferndale, mi tonight at the loving touch. doors at 8pm, music at 8:30.
+]
+Relevant[Y/N]? n
+Result 6
+[
+ URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates
+ Title: amazon.com: gates
+ Summary: product features expands to become a 192-inch wall mounted gate or free standing barrier
+]
+Relevant[Y/N]? n
+Result 7
+[
+ URL: http://en.wikipedia.org/wiki/Bill_Gates
+ Title: bill gates - wikipedia, the free encyclopedia
+ Summary: william henry "bill" gates iii (born october 28, 1955) is an american business magnate, philanthropist, investor, computer programmer, and inventor. in 1975, gates co ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://www.gatesfoundation.org/
+ Title: bill & melinda gates foundation
+ Summary: the gates foundations effort to eradicate polio offers the chance to protect millions of children from paralysis forever.
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.forbes.com/profile/bill-gates/
+ Title: bill gates - forbes
+ Summary: forty years ago, when bill gates and paul allen launched microsoft, gates' goal of getting a computer on every person's desk seemed audacious.
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.gates.com/catalogs-and-resources/catalogs
+ Title: gates belts, hose, & hydraulics catalogs | gates corporation
+ Summary: gate is a leading global, industrial, diversified company. view our catalogs to learn more about our belts, hose, & hydraulic products.
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = gates
+Precision 0.30000000000000004
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+Augmenting by bill
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = gates bill
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%20bill%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://news.microsoft.com/exec/billg/
+ Title: bill gates keynote: microsoft teched 2008  developers ...
+ Summary: bill gates: good morning and welcome to teched. this is the first year that we broke teched into two sections, the section this week, which is just ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://en.wikipedia.org/wiki/Gates%2C_Bill
+ Title: bill gates - wikipedia, the free encyclopedia
+ Summary: william henry "bill" gates iii (born october 28, 1955) is an american business magnate, philanthropist, investor, computer programmer, and inventor. in 1975, gates co ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation
+ Title: bill & melinda gates foundation - wikipedia, the free ...
+ Summary: bill & melinda gates foundation (bmgf or the gates foundation) is the largest private foundation in the world, founded by bill and melinda gates. it was ...
+]
+Relevant[Y/N]? y
+Result 4
+[
+ URL: http://www.forbes.com/sites/jamesconca/2015/10/02/bill-gates-forges-nuclear-deal-with-china/
+ Title: bill gates making progress on next generation of nuclear ...
+ Summary: bill gates and chinese president xi jinping met in seattle to sign an agreement between his nuclear power company, terrapower, and the china national ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://money.cnn.com/2015/09/25/investing/bill-gates-foundation-sues-petrobras/index.html
+ Title: bill & melinda gates foundation sues petrobras - sep. 25, 2015
+ Summary: the gates foundation is seeking "damages" related to the trust's investment in petrobras, the government-run company where a massive money laundering case ...
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.gatesnotes.com/Books
+ Title: learn more about books | bill gates
+ Summary: this is my personal blog, where i share about the people i meet, the books i'm reading, and what i'm learning. i hope that you'll join the conversation.
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://www.ndtv.com/world-news/bill-gates-is-americas-richest-for-22nd-straight-year-1224442
+ Title: bill gates is america's richest for 22nd straight year
+ Summary: washington: microsoft co-founder bill gates retains the top spot on the forbes list of america's 400 richest people for the 22nd straight year with ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://www.biography.com/people/bill-gates-9307520?page=1
+ Title: bill gates - business leader, entrepreneur, philanthropist ...
+ Summary: entrepreneur bill gates founded the world's largest software business, microsoft, with paul allen, and subsequently became one of the richest men in the world.
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://blogs.wsj.com/indiarealtime/2015/10/01/what-does-bill-gates-think-of-narendra-modi/
+ Title: what does bill gates think of narendra modi? - india real ...
+ Summary: microsoft ceo bill gates left, indian prime minister narendra modi meet with french president francois hollande (unseen) on the sidelines of the 70th un ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.bizjournals.com/seattle/blog/2015/09/bill-gates-invited-the-chinese-president-to-dinner.html
+ Title: bill gates invited chinese president xi jinping to dinner ...
+ Summary: a spokesman for gov. jay inslee's office says chinese president xi jinping never responded microsoft co-founder bill gates' dinner invitation.
+]
+Relevant[Y/N]? y
+=======================
+FEEDBACK SUMMARY
+Query = gates bill
+Precision 1.0
+Desired precision reached,DONE
+
+C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 friends
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = friends
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27friends%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://www.imdb.com/title/tt0108778/
+ Title: friends (tv series 19942004) - imdb
+ Summary: created by david crane, marta kauffman. with jennifer aniston, courteney cox, lisa kudrow, matt leblanc. follows the lives of six 20-something friends living in ...
+]
+Relevant[Y/N]?
+Enter either Y or N
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://en.wikipedia.org/wiki/Friends
+ Title: friends - wikipedia, the free encyclopedia
+ Summary: friends is an american television sitcom, created by david crane and marta kauffman, which originally aired on nbc from september 22, 1994, to may 6, 2004, lasting ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: http://www.facebook.com/find-friends/
+ Title: log into facebook | facebook
+ Summary: log into facebook to start sharing and connecting with your friends, family, and people you know.
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://www.facebook.com/friends.tv
+ Title: friends (tv show)
+ Summary: comedy central uk is putting together # friendsfest in london which will feature original props, a replica of monica's apartment, a central perk-inspired ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://transplantfriends.com/
+ Title: transplant friends
+ Summary: our transplant friends community mission is to provide a unique and personal point of view for those pre and post transplant patients/families who are traveling down ...
+]
+Relevant[Y/N]? n
+Result 6
+[
+ URL: http://pbskids.org/itsmylife/friends/
+ Title: it's my life . friends | pbs kids go!
+ Summary: when friends fight when things are going great with our friends, life is good. when things are going not-so-great, life can turn super-crummy, super-fast.
+]
+Relevant[Y/N]? n
+Result 7
+[
+ URL: http://www.friends.edu/academics/library
+ Title: edmund stanley library | friends university library ...
+ Summary: edmund stanley library, named after the first president of friends university, exists to make information resources accessible to you and to help you find what you need.
+]
+Relevant[Y/N]? n
+Result 8
+[
+ URL: http://en.wikipedia.org/wiki/My_Friends_(song)
+ Title: my friends - wikipedia, the free encyclopedia
+ Summary: my friends may refer to: my friends (film) (amici miei), an italian comedy-drama directed by mario monicelli my friends (album), an album by the wailers "my friends ...
+]
+Relevant[Y/N]? n
+Result 9
+[
+ URL: http://www.familyfriendpoems.com/poems/friend/
+ Title: friendship poems, best poems about friendship
+ Summary: friendship poems includes best friend poems, true friend poems, friends forever poems, goodbye poems and broken friendship poems.
+]
+Relevant[Y/N]? n
+Result 10
+[
+ URL: http://friends.wikia.com/wiki/Emily_Waltham
+ Title: emily waltham - friends central - tv show, episodes ...
+ Summary: emily waltham (previously geller) born december 30 1973 was rachel's boss's niece who begins dating ross at the middle of season 4. their relationship begins to ...
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = friends
+Precision 0.30000000000000004
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+crawling through : http://www.imdb.com/title/tt0108778/
+crawling through : http://en.wikipedia.org/wiki/Friends
+crawling through : http://www.facebook.com/friends.tv
+Augmenting by kauffman crane
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = friends kauffman crane
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27friends%20kauffman%20crane%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://www.ew.com/article/2014/04/16/marta-kauffman-david-crane-friends-finale
+ Title: 'friends' finale: marta kauffman and david crane look back ...
+ Summary: tv | inside tv 'friends' creators marta kauffman and david crane look back at the finale -- and ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://www.emmytvlegends.org/interviews/people/david-crane-and-marta-kauffman
+ Title: david crane and marta kauffman interview | archive of ...
+ Summary: david crane and marta kauffman on their proudest achievment, friends- "it was perfect" clip begins at: 08:31; david crane and marta kauffman on the first time ross ...
+]
+Relevant[Y/N]? n
+Result 3
+[
+ URL: http://en.wikipedia.org/wiki/Friends
+ Title: friends - wikipedia, the free encyclopedia
+ Summary: friends is an american television sitcom, created by david crane and marta kauffman, which originally aired on nbc from september 22, 1994, to may 6, 2004, lasting ...
+]
+Relevant[Y/N]? y
+Result 4
+[
+ URL: http://www.emmytvlegends.org/interviews/shows/friends
+ Title: friends | archive of american television
+ Summary: friends is a sitcom created by david crane and marta kauffman, which aired on nbc from september 22, 1994 to may 6, 2004. the series revolves around a group of ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://friends.wikia.com/wiki/Friends
+ Title: friends - friends central - tv show, episodes, characters
+ Summary: friends is an american situation comedy about a group of friends living in the new york city borough of manhattan. it was created by david crane and marta kauffman ...
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://en.wikipedia.org/wiki/Marta_Kauffman
+ Title: marta kauffman - wikipedia, the free encyclopedia
+ Summary: marta fran kauffman (born september 21, 1956) is an american writer and tv producer, best known as the co-creator of the popular sitcom friends, alongside david crane.
+]
+Relevant[Y/N]? n
+Result 7
+[
+ URL: http://friends.wikia.com/wiki/Bright/Kauffman/Crane_Productions
+ Title: bright/kauffman/crane productions - friends central - tv ...
+ Summary: bright/kauffman/crane productions is a production company created by kevin bright, marta kauffman, and david crane. the company is most notable for their production ...
+]
+Relevant[Y/N]? n
+Result 8
+[
+ URL: http://centralperkfriends.wikia.com/wiki/Friends
+ Title: friends - central perk - the friends wiki
+ Summary: friends is an american sitcom created by david crane and marta kauffman, which aired on nbc from september 22, 1994 to may 6, 2004. the series revolves around a group ...
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.imdb.com/title/tt0108778/
+ Title: friends (tv series 19942004) - imdb
+ Summary: created by david crane, marta kauffman. with jennifer aniston, courteney cox, lisa kudrow, matt leblanc. follows the lives of six 20-something friends living in ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.nbcnews.com/id/4899445/ns/dateline_nbc-newsmakers/t/friends-creators-share-shows-beginnings/
+ Title: 'friends' creators share story of show's beginnings ...
+ Summary: kevin bright, marta kauffman and david crane created "friends" at a low-point in their careers. ... crane: right. kauffman: one favor we had to do
+]
+Relevant[Y/N]? y
+=======================
+FEEDBACK SUMMARY
+Query = friends kauffman crane
+Precision 0.7000000000000001
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+crawling through : http://www.ew.com/article/2014/04/16/marta-kauffman-david-crane-friends-finale
+crawling through : http://en.wikipedia.org/wiki/Friends
+crawling through : http://www.emmytvlegends.org/interviews/shows/friends
+crawling through : http://friends.wikia.com/wiki/Friends
+crawling through : http://centralperkfriends.wikia.com/wiki/Friends
+crawling through : http://www.imdb.com/title/tt0108778/
+crawling through : http://www.nbcnews.com/id/4899445/ns/dateline_nbc-newsmakers/t/friends-creators-share-shows-beginnings/
+Augmenting by nbc
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = friends kauffman crane nbc
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27friends%20kauffman%20crane%20nbc%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Friends
+ Title: friends - wikipedia, the free encyclopedia
+ Summary: friends is an american television sitcom, created by david crane and marta kauffman, which originally aired on nbc from september 22, 1994, to may 6, 2004, lasting ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://www.emmytvlegends.org/interviews/shows/friends
+ Title: friends | archive of american television
+ Summary: friends is a sitcom created by david crane and marta kauffman, which aired on nbc from september 22, 1994 to may 6, 2004. the series revolves around a group of ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: http://friends.wikia.com/wiki/Friends
+ Title: friends - friends central - tv show, episodes, characters
+ Summary: friends is an american situation comedy about a group of friends living in the new york city borough of manhattan. it was created by david crane and marta kauffman ...
+]
+Relevant[Y/N]? y
+Result 4
+[
+ URL: http://www.nbcnews.com/id/4899445/ns/dateline_nbc-newsmakers/t/friends-creators-share-shows-beginnings/
+ Title: 'friends' creators share story of show's beginnings ...
+ Summary: kevin bright, marta kauffman and david crane created "friends" at a low-point in their careers. ... kauffman: they did, they liked her. nbc backed ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://centralperkfriends.wikia.com/wiki/Friends
+ Title: friends - central perk - the friends wiki
+ Summary: friends is an american sitcom created by david crane and marta kauffman, which aired on nbc from september 22, 1994 to may 6, 2004. the series revolves around a group ...
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://en.wikipedia.org/wiki/The_Pilot_(Friends)
+ Title: the pilot (friends) - wikipedia, the free encyclopedia
+ Summary: crane, kauffman and warner bros. executives disagreed, ... some major and some minor; nbc wanted two of the pilot's three storylines downplayed to subplots, ...
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://nickelodeonproductions.wikia.com/wiki/Friends
+ Title: friends - nickelodeon wiki
+ Summary: friends is an american sitcom created by david crane and marta kauffman, which aired on nbc from september 22, 1994 to may 6, 2004. the series revolves around a group ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://goodinaroom.com/blog/original-pitch-tv-show-friends/
+ Title: friends: the original pitch for the tv show friends
+ Summary: do you love friends? here's how marta kauffman and david crane pitched the show that would become friends to the president of nbc entertainment.
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.friends-collection.blogspot.com/
+ Title: friends collection
+ Summary: friends is an american sitcom created by david crane and marta kauffman, which ran on nbc from september 22, 1994 to may 6, 2004. the series revolves around a group ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://friends.tktv.net/
+ Title: tktv - friends
+ Summary: ... and any content contained on this site relating to "friends" are not authorized by bright, kauffman, crane productions, warner bros. television or nbc.
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = friends kauffman crane nbc
+Precision 0.9
+Desired precision reached,DONE
+
+C:\Users\Bahul\Documents\Python Workspace\ADB>
