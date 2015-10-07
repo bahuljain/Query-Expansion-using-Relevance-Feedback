@@ -8,7 +8,7 @@ import math
 import numpy as np
 import sys
 
-if len(sys.argv) != 4:
+if len(sys.argv) < 4:
     print 'Enter all the 3 arguments'
     sys.exit()
     
