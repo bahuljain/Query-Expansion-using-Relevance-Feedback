@@ -7,7 +7,8 @@ import base64
 import math
 import numpy as np
 import sys
-    
+from goose import Goose
+
 handlestopword = open('stopwords.txt','r')
 stopwords = handlestopword.readline().split(',')
 handlestopword.close()
@@ -125,8 +126,7 @@ while True:
         for sentence in descriptions:
             for word in sentence:
                 insertDictionary(word)
-        
-        #print ' '.join(dictionary)
+
 
         termFrequency = []
         documentFrequency = []
@@ -195,19 +195,73 @@ while True:
             if modifiedQueryVector[i] < 0:
                 modifiedQueryVector[i] = 0
                 
-        newQuery = []         
-
-        ind = np.argsort(modifiedQueryVector)
-        ind1 = ind[ind.size - len(query) -1]
-        ind2 = ind[ind.size - len(query) -2]
-        ind3 = ind[ind.size - len(query) -3]   
+        newQuery = []                
         
-        # formulating the query to be augmented, here we append the word with max weight
-        newQuery.append(dictionary[ind1])
+        # extracting top 5 words with maximum weights after applying rocchio
+        max5 = []
+        max5words = []        
+        for i in range (len(query)+1,len(query)+6):
+            max5.append(np.partition(modifiedQueryVector,-i)[-i])
+            max5words.append(dictionary[np.argpartition(modifiedQueryVector,-i)[-i]])
+        
+        #print max5words
+        #print max5
+        
+        # this is a special and a rare case when the weights of top 5 words are not very distinguishable,
+        # in which case we crawl through the entire content of the relevant docs to obtain the most 
+        # frequently occuring word amongst these 5 words in the contents of the relevant results
+        if (max5[0]-max5[2])/max5[0]<0.2:
+            wordCount = dict((word,0) for word in max5words)
             
-        # deciding if second word should be appended to the new query 
-        if 0.8*(modifiedQueryVector[ind1]-modifiedQueryVector[ind2]) < modifiedQueryVector[ind2] - modifiedQueryVector[ind3]:
-            newQuery.append(dictionary[ind2])
+            # crawling through content of relevant docs and finding normalized count of the above 5 words 
+            for relevantIndex in relevantDocs:
+                url = urlList[relevantIndex]
+                print 'crawling through : ' + url
+                g= Goose()
+                article = g.extract(url=url)
+                x = ''.join(article.cleaned_text[:])
+                x = x.encode('ascii','ignore').decode('ascii')
+                pageWords = re.split(' |, |\. |; |: |:|\(|\) |\? |\n', x)
+                
+                for word in pageWords:
+                    word = word.lower()
+                    if word in wordCount:
+                        wordCount[word] = wordCount[word] + 1.0/len(pageWords)
+            print wordCount
+
+            values = []
+            for word in max5words:
+                if word in wordCount:
+                    values.append(wordCount[word])
+            values = np.array(values)        
+            
+            #obtaining the indices of the words with maximum count in the content of the docs
+            ind3 = np.argpartition(values, -3)[-3]
+            ind2 = np.argpartition(values, -2)[-2]
+            ind1 = np.argpartition(values, -1)[-1]
+            
+            # formulating the query to be augmented, here we append the word with max count
+            newQuery.append(max5words[ind1])
+            
+            # deciding if second word should be appended to the new query 
+            if 0.8*(values[ind1]-values[ind2]) < values[ind2] - values[ind3]:
+                newQuery.append(max5words[ind2])
+        else:
+            #obtaining the indices of the words with maximum weights after the words already in the query
+            ind3 = np.argpartition(modifiedQueryVector, -(len(query)+3))[-(len(query)+3)]
+            ind2 = np.argpartition(modifiedQueryVector, -(len(query)+2))[-(len(query)+2)]
+            ind1 = np.argpartition(modifiedQueryVector, -(len(query)+1))[-(len(query)+1)]
+            
+            #print dictionary[ind1] + ' ' + `modifiedQueryVector[ind1]`
+            #print dictionary[ind2] + ' ' + `modifiedQueryVector[ind2]`
+            #print dictionary[ind3] + ' ' + `modifiedQueryVector[ind3]`
+    
+            # formulating the query to be augmented, here we append the word with max weight
+            newQuery.append(dictionary[ind1])
+            
+            # deciding if second word should be appended to the new query 
+            if 0.8*(modifiedQueryVector[ind1]-modifiedQueryVector[ind2]) < modifiedQueryVector[ind2] - modifiedQueryVector[ind3]:
+                newQuery.append(dictionary[ind2])
 
         print 'Augmenting by '+' '.join(newQuery)        
         query = query + newQuery
