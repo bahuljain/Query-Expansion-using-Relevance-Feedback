@@ -7,6 +7,10 @@ import base64
 import math
 import numpy as np
 import sys
+
+if len(sys.argv) != 4:
+    print 'Enter all the 3 arguments'
+    sys.exit()
     
 handlestopword = open('stopwords.txt','r')
 stopwords = handlestopword.readline().split(',')
@@ -28,7 +32,11 @@ def insertDictionary(word):
 accountKey = sys.argv[1]
 accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
 headers = {'Authorization': 'Basic ' + accountKeyEnc}
-precision = float(sys.argv[2])
+try:
+    precision = float(sys.argv[2])
+except ValueError:
+    print "Please enter a value between 0 and 1 as the second argument" 
+    sys.exit()
 query = sys.argv[3:len(sys.argv)]
 newPrecision = 0
 while True:
