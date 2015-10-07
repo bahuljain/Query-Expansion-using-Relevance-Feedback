@@ -1,3 +1,518 @@
+C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 gates
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = gates
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://www.gates.com/
+ Title: gates corporation
+ Summary: gates corporation is powering progress in the oil & gas, energy, mining, marine, agriculture, transportation and automotive industries.
+]
+Relevant[Y/N]? n
+Result 2
+[
+ URL: http://www.gatecrafters.com/design_your_gates.aspx
+ Title: driveway gates | automatic gates | electric gates
+ Summary: driveway gates - automatic gates the high-quality driveway gates from gatecrafters.com come in a wide variety of options to ...
+]
+Relevant[Y/N]? n
+Result 3
+[
+ URL: http://www.gatesbbq.com/
+ Title: gates bar b.q.
+ Summary: with the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://en.wikipedia.org/wiki/Gates
+ Title: gates - wikipedia, the free encyclopedia
+ Summary: gates may refer to: contents 1 people 2 places 3 art and entertainment 4 see also people gates (surname) gates brown, american baseball player gates mcfadden ...
+]
+Relevant[Y/N]? n
+Result 5
+[
+ URL: https://www.facebook.com/gatesnj
+ Title: gates
+ Summary: minneapolis, you are two for two in our book. such a rad city! we are in ferndale, mi tonight at the loving touch. doors at 8pm, music at 8:30.
+]
+Relevant[Y/N]? n
+Result 6
+[
+ URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates
+ Title: amazon.com: gates
+ Summary: product features expands to become a 192-inch wall mounted gate or free standing barrier
+]
+Relevant[Y/N]? n
+Result 7
+[
+ URL: http://en.wikipedia.org/wiki/Bill_Gates
+ Title: bill gates - wikipedia, the free encyclopedia
+ Summary: william henry "bill" gates iii (born october 28, 1955) is an american business magnate, philanthropist, investor, computer programmer, and inventor. in 1975, gates co ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://www.gatesfoundation.org/
+ Title: bill & melinda gates foundation
+ Summary: the gates foundations effort to eradicate polio offers the chance to protect millions of children from paralysis forever.
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.forbes.com/profile/bill-gates/
+ Title: bill gates - forbes
+ Summary: forty years ago, when bill gates and paul allen launched microsoft, gates' goal of getting a computer on every person's desk seemed audacious.
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.gates.com/catalogs-and-resources/catalogs
+ Title: gates belts, hose, & hydraulics catalogs | gates corporation
+ Summary: gate is a leading global, industrial, diversified company. view our catalogs to learn more about our belts, hose, & hydraulic products.
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = gates
+Precision 0.30000000000000004
+Still below the desired precision of 0.8
+Indexing result....
+Indexing result....
+Augmenting by bill
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = gates bill
+Precision = 0.8
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%20bill%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://news.microsoft.com/exec/billg/
+ Title: bill gates keynote: microsoft teched 2008  developers ...
+ Summary: bill gates: good morning and welcome to teched. this is the first year that we broke teched into two sections, the section this week, which is just ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://en.wikipedia.org/wiki/Gates%2C_Bill
+ Title: bill gates - wikipedia, the free encyclopedia
+ Summary: william henry "bill" gates iii (born october 28, 1955) is an american business magnate, philanthropist, investor, computer programmer, and inventor. in 1975, gates co ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation
+ Title: bill & melinda gates foundation - wikipedia, the free ...
+ Summary: bill & melinda gates foundation (bmgf or the gates foundation) is the largest private foundation in the world, founded by bill and melinda gates. it was ...
+]
+Relevant[Y/N]? y
+Result 4
+[
+ URL: http://www.forbes.com/sites/jamesconca/2015/10/02/bill-gates-forges-nuclear-deal-with-china/
+ Title: bill gates making progress on next generation of nuclear ...
+ Summary: bill gates and chinese president xi jinping met in seattle to sign an agreement between his nuclear power company, terrapower, and the china national ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://money.cnn.com/2015/09/25/investing/bill-gates-foundation-sues-petrobras/index.html
+ Title: bill & melinda gates foundation sues petrobras - sep. 25, 2015
+ Summary: the gates foundation is seeking "damages" related to the trust's investment in petrobras, the government-run company where a massive money laundering case ...
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.gatesnotes.com/Books
+ Title: learn more about books | bill gates
+ Summary: this is my personal blog, where i share about the people i meet, the books i'm reading, and what i'm learning. i hope that you'll join the conversation.
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://www.ndtv.com/world-news/bill-gates-is-americas-richest-for-22nd-straight-year-1224442
+ Title: bill gates is america's richest for 22nd straight year
+ Summary: washington: microsoft co-founder bill gates retains the top spot on the forbes list of america's 400 richest people for the 22nd straight year with ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://www.biography.com/people/bill-gates-9307520?page=1
+ Title: bill gates - business leader, entrepreneur, philanthropist ...
+ Summary: entrepreneur bill gates founded the world's largest software business, microsoft, with paul allen, and subsequently became one of the richest men in the world.
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://blogs.wsj.com/indiarealtime/2015/10/01/what-does-bill-gates-think-of-narendra-modi/
+ Title: what does bill gates think of narendra modi? - india real ...
+ Summary: microsoft ceo bill gates left, indian prime minister narendra modi meet with french president francois hollande (unseen) on the sidelines of the 70th un ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.bizjournals.com/seattle/blog/2015/09/bill-gates-invited-the-chinese-president-to-dinner.html
+ Title: bill gates invited chinese president xi jinping to dinner ...
+ Summary: a spokesman for gov. jay inslee's office says chinese president xi jinping never responded microsoft co-founder bill gates' dinner invitation.
+]
+Relevant[Y/N]? y
+=======================
+FEEDBACK SUMMARY
+Query = gates bill
+Precision 1.0
+Desired precision reached,DONE 
+
+C:\Users\ParthRajesh\Documents\ADB\ADB\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.9 musk
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = musk
+Precision = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Musk
+ Title: musk - wikipedia, the free encyclopedia
+ Summary: musk is a class of aromatic substances commonly used as base notes in perfumery. they include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+Relevant[Y/N]? n
+Result 2
+[
+ URL: http://en.wikipedia.org/wiki/Elon_Musk
+ Title: elon musk - wikipedia, the free encyclopedia
+ Summary: elon reeve musk (born june 28, 1971) is a south african-born canadian-american business magnate, engineer, inventor and investor. [14] he is the ceo and cto of spacex ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A3760911%2Ck%3Aperfume%20musk
+ Title: amazon.com: perfume musk: beauty
+ Summary: online shopping from a great selection at beauty store. ... avany 100% pure uncut alcohol free roll on body oil perfume and colonge, egyptian musk 0.33oz
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: https://www.facebook.com/MUSKmeat
+ Title: musk
+ Summary: announcing holy mountain's first ever summer sale summer is winding down and we need to make room for the dust and chime records coming this fall. 15% off everything ...
+]
+Relevant[Y/N]? n
+Result 5
+[
+ URL: http://ghr.nlm.nih.gov/gene/MUSK
+ Title: musk - muscle, skeletal, receptor tyrosine kinase ...
+ Summary: the official name of this gene is muscle, skeletal, receptor tyrosine kinase. musk is the gene's official symbol. the musk gene is also known by ...
+]
+Relevant[Y/N]? n
+Result 6
+[
+ URL: http://www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK
+ Title: musk gene - genecards | musk protein | musk antibody
+ Summary: complete information for musk gene (protein coding), muscle, skeletal, receptor tyrosine kinase, including: function, proteins, disorders, pathways, orthologs, and ...
+]
+Relevant[Y/N]? n
+Result 7
+[
+ URL: http://encyclopedia2.thefreedictionary.com/musk
+ Title: musk | article about musk by the free dictionary
+ Summary: musk, odorous substance secreted by an abdominal gland of the musk deer musk deer, small, antlerless deer, moschus moschiferus, found in wet mountain forests from ...
+]
+Relevant[Y/N]? n
+Result 8
+[
+ URL: http://www.ebay.com/sch/i.html?_nkw=musk+perfume
+ Title: musk perfume | ebay
+ Summary: find great deals on ebay for musk perfume musk perfume oil. shop with confidence.
+]
+Relevant[Y/N]? n
+Result 9
+[
+ URL: https://www.facebook.com/muskforlife
+ Title: musk
+ Summary: musk continue their arduous touring schedule - 2 shows within a week! the road is our mistress - well that and shazza from the blacktown rsl bottle shop.
+]
+Relevant[Y/N]? n
+Result 10
+[
+ URL: http://www.sears.com/search=egyptian%20musk%20perfume
+ Title: egyptian musk perfume from sears.com
+ Summary: balad al atoor ( attar city ) musk al hareer (silky musk)- 6ml or 12ml - alcohol free arabic perfume oil fragrance for men and women (unisex)
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = musk
+Precision 0.1
+Still below the desired precision of 0.9
+Indexing result....
+Indexing result....
+Augmenting by elon
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = musk elon
+Precision = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk%20elon%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: https://en.wikipedia.org/wiki/Elon_Musk
+ Title: elon musk - wikipedia, the free encyclopedia
+ Summary: in march 1999, musk co-founded x.com, an online financial services and e-mail payment company, with us$10 million from the sale of zip2. [32] [39] [41] one year later ...
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://techcrunch.com/2015/09/29/elon-musk-says-tesla-cars-will-reach-620-miles-on-a-single-charge-within-a-year-or-two-have-fully-autonomous-cars-in-three-years/
+ Title: elon musk says tesla cars will reach 620 miles on a single ...
+ Summary: tesla ceo elon musk sat down with a danish tv show last week and had some interesting predictions to share. asked, for example, when he thought the company ...
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: http://www.youtube.com/watch?v=yKORsrlN-2k
+ Title: elon musk debuts the tesla powerwall - youtube
+ Summary: tesla powerwall keynote by elon musk "the missing piece" english and spanish subtitles added, credit to luis gmez for transcribing and translating.
+]
+Relevant[Y/N]? y
+Result 4
+[
+ URL: http://www.businessinsider.com/elon-musk-the-model-x-is-so-advanced-we-probably-shouldnt-have-built-it-2015-9
+ Title: elon musk: the model x is so advanced we probably shouldn ...
+ Summary: tesla launched its long-awaited model x suv this week to great fanfare in the san francisco bay area. the launch was a big success, well attended by tesla ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://mashable.com/2015/10/02/elon-musk-nuke-mars-two-suns/
+ Title: elon musk won't nuke mars, he'll just give it 2 temporary suns
+ Summary: good news, elon musk does not want to bomb mars. he just wants to create two suns above the red planet.
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.engadget.com/2015/10/02/elon-musk-solar-city-rooftop-efficiency/
+ Title: elon musk's solarcity has the world's most efficient solar ...
+ Summary: solarcity, the company co-founded by elon musk, now produces the world's most efficient rooftop solar panels with a module efficiency of just over 22 percent.
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://gizmodo.com/elon-musk-clarifies-his-plan-to-nuke-mars-1734457751
+ Title: elon musk clarifies his plan to "nuke mars" - gizmodo
+ Summary: remember a few weeks back, when elon musk explained how we ought to nuke mars to warm it up? well, the billionaire was really just speaking off the cuff, and so ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: http://money.cnn.com/technology/elonmusk/
+ Title: elon. evolution - cnnmoney
+ Summary: elon musk is the man of the future. he makes rocket ships that will carry humans into space and makes cars that dont require gasoline. but he cant solve all of ...
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.entrepreneur.com/article/251186
+ Title: an emotional elon musk admits he's only 'tried' to take ...
+ Summary: elon musk has no time for vacation. hes too busy saving humankind, or at least trying to. keeping the light of consciousness from forever dimming requires a ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.washingtonpost.com/news/innovations/wp/2015/09/29/elon-musk-needs-a-vacation/
+ Title: elon musk needs a vacation - the washington post
+ Summary: elon musk is a notorious workaholic. as the chief executive of spacex and tesla has long made clear, he doesnt really need much vacation. hes described lounging ...
+]
+Relevant[Y/N]? y
+=======================
+FEEDBACK SUMMARY
+Query = musk elon
+Precision 1.0
+Desired precision reached,DONE
+
+
+
+C:\Users\ParthRajesh\Documents\ADB\ADB\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.9 taj mahal
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = taj mahal
+Precision = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27taj%20mahal%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Taj_Mahal
+ Title: taj mahal - wikipedia, the free encyclopedia
+ Summary: the taj mahal is a white marble mausoleum located on the southern bank of the yamuna river in the indian city of agra. it was commissioned in 1632 by the mughal ...
+]
+Relevant[Y/N]? n
+Result 2
+[
+ URL: http://www.history.com/topics/taj-mahal
+ Title: the taj mahal - facts & summary - history.com
+ Summary: find out more about the history of the taj mahal, including videos, interesting articles, pictures, historical features and more. get all the facts on history.com
+]
+Relevant[Y/N]? n
+Result 3
+[
+ URL: http://www.trumptaj.com/
+ Title: atlantic city new jersey casino hotels | trump taj mahal ...
+ Summary: for five star atlantic city casino hotels, trump taj mahal casino hotel offers restaurants, nightlife and a casino floor you can't resist. explore our atlantic city ...
+]
+Relevant[Y/N]? n
+Result 4
+[
+ URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ATaj%20Mahal
+ Title: amazon.com: taj mahal
+ Summary: available for pre-order. this item will be released on october 16, 2015.
+]
+Relevant[Y/N]? n
+Result 5
+[
+ URL: http://en.wikipedia.org/wiki/Henry_Fredericks
+ Title: taj mahal (musician) - wikipedia, the free encyclopedia
+ Summary: henry saint clair fredericks (born may 17, 1942), who uses the stage name taj mahal, is an american blues musician. he often incorporates elements of world music into ...
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: https://www.facebook.com/tajmahal
+ Title: taj mahal
+ Summary: taj mahal is excited to present to the public for the first time prints from original etching natch'l blues! the natchl blues prints are hand rolled ...
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://www.tripadvisor.com/Restaurant_Review-g295371-d807032-Reviews-Taj_Mahal-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia.html
+ Title: taj mahal, dubrovnik - restaurant reviews, phone number ...
+ Summary: taj mahal, dubrovnik: see 1,820 unbiased reviews of taj mahal, rated 4.5 of 5 on tripadvisor and ranked #22 of 323 restaurants in dubrovnik.
+]
+Relevant[Y/N]? n
+Result 8
+[
+ URL: http://www.art.com/gallery/id--b191276/taj-mahal-posters.htm
+ Title: taj mahal, posters and prints at art.com
+ Summary: taj mahal, posters and prints - discover the perfect print, canvas or photo for your space with art.com
+]
+Relevant[Y/N]? n
+Result 9
+[
+ URL: https://myspace.com/tajblues/music/songs
+ Title: taj mahal's songs | stream online music songs | listen ...
+ Summary: taj mahal's songs: listen to songs by taj mahal on myspace, stream free online music by taj mahal
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.amazon.com/NARS-0467504846788-Blush-Taj-Mahal/dp/B00021DJ32
+ Title: nars taj mahal - amazon.com
+ Summary: indications nars - cheek - blush -blush - taj mahal 4.8g/0.16oz nars ingredients talc, polyethylene, zinc stearate, silica, tricaprylin, capric/caprylic stearic ...
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = taj mahal
+Precision 0.30000000000000004
+Still below the desired precision of 0.9
+Indexing result....
+Indexing result....
+Augmenting by songs
+Parameters:
+Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
+Query = taj mahal songs
+Precision = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27taj%20mahal%20songs%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+=============================
+Result 1
+[
+ URL: https://myspace.com/tajblues/music/songs
+ Title: taj mahal's songs | stream online music songs | listen ...
+ Summary: taj mahal's songs: listen to songs by taj mahal on myspace, stream free online music by taj mahal
+]
+Relevant[Y/N]? y
+Result 2
+[
+ URL: http://www.youtube.com/playlist?list=PLFB0043AAFFC0860A
+ Title: taj mahal / songs - youtube
+ Summary: sign in now to see your channels and recommendations! sign in. watch queue tv queue
+]
+Relevant[Y/N]? y
+Result 3
+[
+ URL: http://www.jango.com/music/Taj+Mahal
+ Title: taj mahal music - listen free on jango || pictures, videos ...
+ Summary: unlimited free taj mahal music - click to play statesboro blues, johnny too bad and whatever else you want! henry saint clair fredericks (born may 17, 1942), who uses ...
+]
+Relevant[Y/N]? y
+Result 4
+[
+ URL: http://music.famousfix.com/tpx_35260/taj-mahal/songs
+ Title: taj mahal songs, complete list of taj mahal songs & music ...
+ Summary: full list of taj mahal songs, sorted alphabetically by name. you can also sort the list of songs by year recorded (from oldest to newest, and from most recent to ...
+]
+Relevant[Y/N]? y
+Result 5
+[
+ URL: http://www.allmusic.com/artist/taj-mahal-mn0000790604/songs
+ Title: taj mahal | songs | allmusic
+ Summary: find taj mahal song information on allmusic. find taj mahal song information on allmusic allmusic. new releases ... taj mahal biography by steve huey.
+]
+Relevant[Y/N]? y
+Result 6
+[
+ URL: http://www.amazon.com/Taj-Mahal/dp/B00004XSUW
+ Title: taj mahal - taj mahal - amazon.com music
+ Summary: amazon.com. taj mahal's been chasing the blues around the world for years, but rarely with the passion, energy, and clarity he brought to his first three albums.
+]
+Relevant[Y/N]? y
+Result 7
+[
+ URL: http://en.wikipedia.org/wiki/Henry_St._Clair_Fredericks
+ Title: taj mahal (musician) - wikipedia, the free encyclopedia
+ Summary: henry saint clair fredericks (born may 17, 1942), who uses the stage name taj mahal, is an american blues musician. he often incorporates elements of world music into ...
+]
+Relevant[Y/N]? y
+Result 8
+[
+ URL: https://itunes.apple.com/us/artist/taj-mahal/id10735
+ Title: taj mahal - download taj mahal music on itunes
+ Summary: preview and download songs and albums by taj mahal, including the best of taj mahal, the essential taj mahal, taj mahal, and many more. songs by taj ...
+]
+Relevant[Y/N]? y
+Result 9
+[
+ URL: http://www.elyrics.net/song/t/taj-mahal-lyrics.html
+ Title: taj mahal lyrics - elyrics.net - song lyrics
+ Summary: taj mahal lyrics - a selection of 78 taj mahal lyrics including don't call us, betty and dupree, cheatin' on you, chevrolet, senor blues ...
+]
+Relevant[Y/N]? y
+Result 10
+[
+ URL: http://www.secondspin.com/stores/ss/browse-music-by-artist.jsp?productId=919032
+ Title: secondspin - music / taj mahal
+ Summary: the internet's largest buyer and seller of used cds, used dvds, used blu-rays, and used video games. choose from a huge selection of used cds, used dvds, used blu ...
+]
+Relevant[Y/N]? n
+=======================
+FEEDBACK SUMMARY
+Query = taj mahal songs
+Precision 0.9
+Desired precision reached,DONE
+
 C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 apple
 Parameters:
 Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
@@ -255,274 +770,6 @@ Query = apple apples fruit
 Precision 0.9
 Desired precision reached,DONE
 
-C:\Users\Bahul\Documents\Python Workspace\ADB>
-
-FEEDBACK SUMMARY
-Query = apple apples
-Precision 0.5
-Still below the desired precision of 0.8
-Indexing result....
-Indexing result....
-[u'fruit', u'...', u'recipes', u'season', u'tree']
-[0.10936287590858329, 0.079926092065629825, 0.079054842372564799, 0.066938927203056914, 0.062108205345199202]
-fruit 0.10936287590858329
-... 0.079926092065629825
-recipes 0.079054842372564799
-Augmenting by fruit
-Parameters:
-Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
-Query = apple apples fruit
-Precision = 0.8
-URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27apple%20apples%20fruit%27&$top=10&$format=Atom
-Total number of results : 10
-Bing Search Results:
-=============================
-Result 1
-[
- URL: http://en.wikipedia.org/wiki/Apple
- Title: apple - wikipedia, the free encyclopedia
- Summary: the apple tree (malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. it is cultivated worldwide as a fruit ...
-]
-Relevant[Y/N]? y
-Result 2
-[
- URL: http://www.nutrition-and-you.com/apple-fruit.html
- Title: apple fruit nutrition facts and health benefits
- Summary: delicious and crunchy apple fruit is one of the popular fruits containing an impressive list of antioxidants and essential nutrients required for good healthread on.
-]
-Relevant[Y/N]? y
-Result 3
-[
- URL: https://www.apple.com/
- Title: apple
- Summary: apple leads the world in innovation with iphone, ipad, mac, apple watch, ios, os x, watchos and more. visit the site to learn, buy, and get support.
-]
-Relevant[Y/N]? n
-Result 4
-[
- URL: http://www.fruitsinfo.com/apples.php
- Title: apple fruit | history of apples | nutrition facts
- Summary: introduction of apples. apple- king of all fruits have long been associated with the biblical story of adam and eve. between the caspin and the black sea, the fruit ...
-]
-Relevant[Y/N]? y
-Result 5
-[
- URL: http://www.orangepippin.com/apples
- Title: directory of apple varieties starting with a
- Summary: for apple, pear, plum, cherry and orchard fruit enthusiasts - tasting notes, fruit identification, flavors, and relationships of hundreds varieties.
-]
-Relevant[Y/N]? y
-Result 6
-[
- URL: http://www.alibaba.com/product-detail/import-honey-fuji-apple-fruit_60344988340.html
- Title: import honey fuji apple fruit - buy honey fuji apple ...
- Summary: import honey fuji apple fruit , find complete details about import honey fuji apple fruit,honey fuji apple,import apple fruit,import honey fuji apple fruit from fresh ...
-]
-Relevant[Y/N]? y
-Result 7
-[
- URL: http://whatscookingamerica.net/Fruit/Apples.htm
- Title: history and legends of apples, apple recipes, what's ...
- Summary: what are cooking apples? a cooking apple is an apple that is used primarily for cooking rather than eating. while theres no harm to using an eating apple in a ...
-]
-Relevant[Y/N]? y
-Result 8
-[
- URL: http://www.whfoods.com/genpage.php?tname=foodspice&dbid=15
- Title: apples - the world's healthiest foods
- Summary: what's new and beneficial about apples. the phytonutrients in apples can help you regulate your blood sugar. recent research has shown that apple polyphenols can help ...
-]
-Relevant[Y/N]? y
-Result 9
-[
- URL: http://www.amazon.com/LARABAR-Fruit-Apple-Gluten-ounce/dp/B00426ATTK
- Title: larabar fruit & nut food bar, apple pie, gluten free 1.6 ...
- Summary: lrabar fruit & nut food bar, apple pie. just like grandma's and with 190 calories, this apple pie fruit and nut bar contains one quarter cup of fruit, 5 grams of ...
-]
-Relevant[Y/N]? y
-Result 10
-[
- URL: http://www.bestapples.com/
- Title: washington state apple commission
- Summary: apple varieties, history of the association, health and nutrition information, facts, kids' section, recipes, grower profiles, map of growing regions, and historic ...
-]
-Relevant[Y/N]? n
-=======================
-FEEDBACK SUMMARY
-Query = apple apples fruit
-Precision 0.8
-Desired precision reached,DONE
-
-C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 gates
-Parameters:
-Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
-Query = gates
-Precision = 0.8
-URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%27&$top=10&$format=Atom
-Total number of results : 10
-Bing Search Results:
-=============================
-Result 1
-[
- URL: http://www.gates.com/
- Title: gates corporation
- Summary: gates corporation is powering progress in the oil & gas, energy, mining, marine, agriculture, transportation and automotive industries.
-]
-Relevant[Y/N]? n
-Result 2
-[
- URL: http://www.gatecrafters.com/design_your_gates.aspx
- Title: driveway gates | automatic gates | electric gates
- Summary: driveway gates - automatic gates the high-quality driveway gates from gatecrafters.com come in a wide variety of options to ...
-]
-Relevant[Y/N]? n
-Result 3
-[
- URL: http://www.gatesbbq.com/
- Title: gates bar b.q.
- Summary: with the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
-]
-Relevant[Y/N]? n
-Result 4
-[
- URL: http://en.wikipedia.org/wiki/Gates
- Title: gates - wikipedia, the free encyclopedia
- Summary: gates may refer to: contents 1 people 2 places 3 art and entertainment 4 see also people gates (surname) gates brown, american baseball player gates mcfadden ...
-]
-Relevant[Y/N]? n
-Result 5
-[
- URL: https://www.facebook.com/gatesnj
- Title: gates
- Summary: minneapolis, you are two for two in our book. such a rad city! we are in ferndale, mi tonight at the loving touch. doors at 8pm, music at 8:30.
-]
-Relevant[Y/N]? n
-Result 6
-[
- URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates
- Title: amazon.com: gates
- Summary: product features expands to become a 192-inch wall mounted gate or free standing barrier
-]
-Relevant[Y/N]? n
-Result 7
-[
- URL: http://en.wikipedia.org/wiki/Bill_Gates
- Title: bill gates - wikipedia, the free encyclopedia
- Summary: william henry "bill" gates iii (born october 28, 1955) is an american business magnate, philanthropist, investor, computer programmer, and inventor. in 1975, gates co ...
-]
-Relevant[Y/N]? y
-Result 8
-[
- URL: http://www.gatesfoundation.org/
- Title: bill & melinda gates foundation
- Summary: the gates foundations effort to eradicate polio offers the chance to protect millions of children from paralysis forever.
-]
-Relevant[Y/N]? y
-Result 9
-[
- URL: http://www.forbes.com/profile/bill-gates/
- Title: bill gates - forbes
- Summary: forty years ago, when bill gates and paul allen launched microsoft, gates' goal of getting a computer on every person's desk seemed audacious.
-]
-Relevant[Y/N]? y
-Result 10
-[
- URL: http://www.gates.com/catalogs-and-resources/catalogs
- Title: gates belts, hose, & hydraulics catalogs | gates corporation
- Summary: gate is a leading global, industrial, diversified company. view our catalogs to learn more about our belts, hose, & hydraulic products.
-]
-Relevant[Y/N]? n
-=======================
-FEEDBACK SUMMARY
-Query = gates
-Precision 0.30000000000000004
-Still below the desired precision of 0.8
-Indexing result....
-Indexing result....
-Augmenting by bill
-Parameters:
-Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
-Query = gates bill
-Precision = 0.8
-URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%20bill%27&$top=10&$format=Atom
-Total number of results : 10
-Bing Search Results:
-=============================
-Result 1
-[
- URL: http://news.microsoft.com/exec/billg/
- Title: bill gates keynote: microsoft teched 2008  developers ...
- Summary: bill gates: good morning and welcome to teched. this is the first year that we broke teched into two sections, the section this week, which is just ...
-]
-Relevant[Y/N]? y
-Result 2
-[
- URL: http://en.wikipedia.org/wiki/Gates%2C_Bill
- Title: bill gates - wikipedia, the free encyclopedia
- Summary: william henry "bill" gates iii (born october 28, 1955) is an american business magnate, philanthropist, investor, computer programmer, and inventor. in 1975, gates co ...
-]
-Relevant[Y/N]? y
-Result 3
-[
- URL: https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation
- Title: bill & melinda gates foundation - wikipedia, the free ...
- Summary: bill & melinda gates foundation (bmgf or the gates foundation) is the largest private foundation in the world, founded by bill and melinda gates. it was ...
-]
-Relevant[Y/N]? y
-Result 4
-[
- URL: http://www.forbes.com/sites/jamesconca/2015/10/02/bill-gates-forges-nuclear-deal-with-china/
- Title: bill gates making progress on next generation of nuclear ...
- Summary: bill gates and chinese president xi jinping met in seattle to sign an agreement between his nuclear power company, terrapower, and the china national ...
-]
-Relevant[Y/N]? y
-Result 5
-[
- URL: http://money.cnn.com/2015/09/25/investing/bill-gates-foundation-sues-petrobras/index.html
- Title: bill & melinda gates foundation sues petrobras - sep. 25, 2015
- Summary: the gates foundation is seeking "damages" related to the trust's investment in petrobras, the government-run company where a massive money laundering case ...
-]
-Relevant[Y/N]? y
-Result 6
-[
- URL: http://www.gatesnotes.com/Books
- Title: learn more about books | bill gates
- Summary: this is my personal blog, where i share about the people i meet, the books i'm reading, and what i'm learning. i hope that you'll join the conversation.
-]
-Relevant[Y/N]? y
-Result 7
-[
- URL: http://www.ndtv.com/world-news/bill-gates-is-americas-richest-for-22nd-straight-year-1224442
- Title: bill gates is america's richest for 22nd straight year
- Summary: washington: microsoft co-founder bill gates retains the top spot on the forbes list of america's 400 richest people for the 22nd straight year with ...
-]
-Relevant[Y/N]? y
-Result 8
-[
- URL: http://www.biography.com/people/bill-gates-9307520?page=1
- Title: bill gates - business leader, entrepreneur, philanthropist ...
- Summary: entrepreneur bill gates founded the world's largest software business, microsoft, with paul allen, and subsequently became one of the richest men in the world.
-]
-Relevant[Y/N]? y
-Result 9
-[
- URL: http://blogs.wsj.com/indiarealtime/2015/10/01/what-does-bill-gates-think-of-narendra-modi/
- Title: what does bill gates think of narendra modi? - india real ...
- Summary: microsoft ceo bill gates left, indian prime minister narendra modi meet with french president francois hollande (unseen) on the sidelines of the 70th un ...
-]
-Relevant[Y/N]? y
-Result 10
-[
- URL: http://www.bizjournals.com/seattle/blog/2015/09/bill-gates-invited-the-chinese-president-to-dinner.html
- Title: bill gates invited chinese president xi jinping to dinner ...
- Summary: a spokesman for gov. jay inslee's office says chinese president xi jinping never responded microsoft co-founder bill gates' dinner invitation.
-]
-Relevant[Y/N]? y
-=======================
-FEEDBACK SUMMARY
-Query = gates bill
-Precision 1.0
-Desired precision reached,DONE
 
 C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 friends
 Parameters:
