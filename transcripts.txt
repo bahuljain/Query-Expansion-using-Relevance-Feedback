@@ -513,6 +513,7 @@ Query = taj mahal songs
 Precision 0.9
 Desired precision reached,DONE
 
+
 C:\Users\Bahul\Documents\Python Workspace\ADB>python temp.py 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8 0.8 apple
 Parameters:
 Client Key = 2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8
@@ -1039,5 +1040,3 @@ FEEDBACK SUMMARY
 Query = friends kauffman crane nbc
 Precision 0.9
 Desired precision reached,DONE
-
-C:\Users\Bahul\Documents\Python Workspace\ADB>

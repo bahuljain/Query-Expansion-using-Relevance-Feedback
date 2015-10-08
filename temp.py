@@ -204,7 +204,8 @@ while True:
                 modifiedQueryVector[i] = 0
                 
         newQuery = []         
-
+		
+		# finding top 3 words with maximum weights
         ind = np.argsort(modifiedQueryVector)
         ind1 = ind[ind.size - len(query) -1]
         ind2 = ind[ind.size - len(query) -2]
